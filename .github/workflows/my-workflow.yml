@@ -10,4 +10,4 @@ jobs:
       with:
         ruby-version: '3.2.2'
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-    - run: ruby -v
+    - run: gem -v
